@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MiniScienceQuiz</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Splash page -->
+    <string name="desc">This is a picture of the earth</string>
+    <string name="splash1">Mini Science Quiz</string>
+    <string name="splash2">4 Questions</string>
+    <string name="splash3">\u0020\u0020\u0020▶\u0020\u0020\u0020</string>
+    <!-- quiz 1 -->
+    <string name="desc1">This picture shows an object in space that has an icy core with a tail of gas and dust that extends millions of miles.</string>
+    <string name="quiz1">This picture shows an object in space that has an icy core with a tail of gas and dust that extends millions of miles. What is this?</string>
+    <string name="quiz1_1">A star</string>
+    <string name="quiz1_2">A comet</string>
+    <string name="quiz1_3">An asteroid</string>
+    <string name="quiz1_4">A moon</string>
+    <string name="quiz1_correct">Correct: This is a picture of a comet.</string>
+    <string name="quiz1_incorrect">Incorrect: This is a picture of a comet.</string>
+    <string name="quiz1_count">1/4</string>
+    <!-- quiz 2 -->
+    <string name="desc2">This picture shows three layers of the Earth.</string>
+    <string name="quiz2">This picture shows three layers of the Earth. Which layer is the hottest?</string>
+    <string name="quiz2_1">The outer layer - the Earth\'s crust</string>
+    <string name="quiz2_2">The middle layer - the Earth\'s mantle</string>
+    <string name="quiz2_3">The inner layer - the Earth\'s core</string>
+    <string name="quiz2_correct">Correct: The inner layer, called the Earth’s core.</string>
+    <string name="quiz2_incorrect">Incorrect: The inner layer, called the Earth’s core is the correct answer.</string>
+    <string name="quiz2_count">2/4</string>
+    <!-- quiz 4 -->
+    <string name="desc3">There are 4 pictures displaying possible directions where light passes through a magnifying glass.</string>
+    <string name="quiz3">Type the number for the picture which best illustrates what happens when light passes through a magnifying glass.</string>
+    <string name="quiz3_1">SUBMIT</string>
+    <string name="quiz3_2">enter</string>
+    <string name="quiz3_correct">Correct: The answer is 3.</string>
+    <string name="quiz3_incorrect">Incorrect: The correct answer is 3.</string>
+    <string name="quiz3_count">3/4</string>
+    <!-- quiz 4 -->
+    <string name="desc4">There are 4 pictures of people in the question.</string>
+    <string name="quiz4">Which of these people did NOT develop the polio vaccine?</string>
+    <string name="quiz4_1">Marie Curie</string>
+    <string name="quiz4_2">Isaac Newton</string>
+    <string name="quiz4_3">Albert Einstein</string>
+    <string name="quiz4_4">Jonas Salk</string>
+    <string name="quiz4_5">Submit</string>
+    <string name="quiz4_correct">Correct: Only Jonas Salk developed the polio vaccine.</string>
+    <string name="quiz4_incorrect">Incorrect: Only Jonas Salk developed the polio vaccine.</string>
+    <string name="quiz4_count">4/4</string>
+    <!-- generic -->
+    <string name="score">Score</string>
+    <string name="question">Question</string>
+    <string name="end">End</string>
+    <string name="zero">0/0</string>
+    <string name="slash">/</string>
+</resources>
+
