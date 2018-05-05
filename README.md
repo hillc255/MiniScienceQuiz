@@ -10,7 +10,7 @@ The questions and answers with 4 images were developed by the Pew Research Cente
 Some of the questions and answers have been modified for this app.  <http://www.pewresearch.org/quiz/science-knowledge/>
 
 <p align="center">
- <kbd><img width="300" height="533" src="readme_assets/MiniScienceQuiz.mp4"></kbd>
+ <kbd><img width="300" height="533" src="readme_assets/MiniScienceQuiz.gif"></kbd>
 </p>
 
 ## Code Description
