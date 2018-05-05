@@ -10,25 +10,21 @@ The questions and answers with 4 images were developed by the Pew Research Cente
 Some of the questions and answers have been modified for this app.  <http://www.pewresearch.org/quiz/science-knowledge/>
 
 <p align="center">
- <kbd><img width="300" height="533" src="readme_assets/sciencequiz.gif"></kbd>
+ <kbd><img width="300" height="533" src="readme_assets/minisciencequiz.gif"></kbd>
 </p>
 
 ## Code Description
 
 All the questions are on the second Activity after the splash Activity screen.
-The questions include radio buttons, user input and checkboxes..
-
-Below are screen shots with the splash screen:
-
-![Splash screen with earth's profile in space.](https://github.com/hillc255/ScienceQuiz/blob/master/app/src/main/res/drawable/readme1.png) |
-![Screen of radiobutton unanswered question about waves used for cellphone calls.](https://github.com/hillc255/ScienceQuiz/blob/master/app/src/main/res/drawable/readme2.png) |
-![Screen of radiobutton incorrect answer to the question about waves used for cellphone calls.](https://github.com/hillc255/ScienceQuiz/blob/master/app/src/main/res/drawable/readme3.png) |
-![Screen of text input to the question about light passing through magnifying glass.](https://github.com/hillc255/ScienceQuiz/blob/master/app/src/main/res/drawable/readme4.png) |
-![Screen of checkboxs to the question about stars, planets and human behavoir.](https://github.com/hillc255/ScienceQuiz/blob/master/app/src/main/res/drawable/readme5.png)
+The questions include radio buttons, user input and checkboxes.
 
 ## Motivation
 
-Application was assigned as the third project for the "Grow with Google Nanodegree Scholarship: Android Basics" course on Udacity.
+This is the third exercise in the "Grow with Google 2018 Android Basic Development Nanodegree" program with Udacity.
+
+App was modified from the third project in the "Grow with Google 2018 Android Basic Development" program with Udacity to have all questions on a single screen.
+
+The purpose of the exercise is to create a quiz using radio buttins, input edit and checkboxes.
 
 ## Installation
 
