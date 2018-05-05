@@ -25,10 +25,10 @@
     <string name="quiz2_correct">Correct: The inner layer, called the Earth’s core.</string>
     <string name="quiz2_incorrect">Incorrect: The inner layer, called the Earth’s core is the correct answer.</string>
     <string name="quiz2_count">2/4</string>
-    <!-- quiz 4 -->
+    <!-- quiz 3 -->
     <string name="desc3">There are 4 pictures displaying possible directions where light passes through a magnifying glass.</string>
     <string name="quiz3">Type the number for the picture which best illustrates what happens when light passes through a magnifying glass.</string>
-    <string name="quiz3_1">SUBMIT</string>
+    <string name="quiz3_1">Submit</string>
     <string name="quiz3_2">enter</string>
     <string name="quiz3_correct">Correct: The answer is 3.</string>
     <string name="quiz3_incorrect">Incorrect: The correct answer is 3.</string>
@@ -48,7 +48,7 @@
     <string name="score">Score</string>
     <string name="question">Question</string>
     <string name="end">End</string>
-    <string name="zero">0/0</string>
+    <string name="zero"> </string>
     <string name="slash">/</string>
 </resources>
 

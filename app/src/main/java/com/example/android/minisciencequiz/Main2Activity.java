@@ -21,7 +21,6 @@ import android.widget.Toast;
  */
 public class Main2Activity extends AppCompatActivity {
 
-    private RadioGroup radioGroup, radioGroup2;
     private RadioButton radioButton, radioButton2;
     private CheckBox checkBox1, checkBox2, checkBox3, checkBox4;
 
@@ -35,7 +34,9 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        getSupportActionBar().setDisplayShowTitleEnabled(true);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayShowTitleEnabled(true);
+        }
 
         //Radio button 2 is the correct answer
         radioButton = findViewById(R.id.radioButton2);
@@ -43,7 +44,7 @@ public class Main2Activity extends AppCompatActivity {
         textView = findViewById(R.id.answer);
 
         //Sets up radio button group
-        radioGroup = findViewById(R.id.radioGroup);
+        RadioGroup radioGroup = findViewById(R.id.radioGroup);
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 
             @Override
@@ -78,7 +79,8 @@ public class Main2Activity extends AppCompatActivity {
                 int c = getCorrectResponse();
                 int i = getIncorrectResponse();
                 TextView scoreTextView = findViewById(R.id.scoreCount);
-                scoreTextView.setText(c + " / " + i);
+                String correctScore = c + "/" + i;
+                scoreTextView.setText(correctScore);
             }
         });
 
@@ -89,7 +91,7 @@ public class Main2Activity extends AppCompatActivity {
         radioButton2 = findViewById(R.id.radioButton3b);
         //Display correct answer in this textView
         textView2 = findViewById(R.id.answer2);
-        radioGroup2 = findViewById(R.id.radioGroupb);
+        RadioGroup radioGroup2 = findViewById(R.id.radioGroupb);
         radioGroup2.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 
             @Override
@@ -119,7 +121,8 @@ public class Main2Activity extends AppCompatActivity {
 
                 //Display correct score
                 TextView scoreTextView = findViewById(R.id.scoreCount2);
-                scoreTextView.setText(getCorrectResponse() + " / " + getIncorrectResponse());
+                String correctScore2 = getCorrectResponse() + "/" + getIncorrectResponse();
+                scoreTextView.setText(correctScore2);
             }
 
         });
@@ -128,7 +131,6 @@ public class Main2Activity extends AppCompatActivity {
 
         textView3 = findViewById(R.id.answer3);
 
-        EditText edittext = findViewById(R.id.editTextBox);
         submitButton = findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -149,7 +151,8 @@ public class Main2Activity extends AppCompatActivity {
 
                 //Display correct score
                 TextView scoreTextView = findViewById(R.id.scoreCount3);
-                scoreTextView.setText(getCorrectResponse() + " / " + getIncorrectResponse());
+                String correctScore3 = getCorrectResponse() + "/" + getIncorrectResponse();
+                scoreTextView.setText(correctScore3);
             }
 
         });
@@ -216,12 +219,13 @@ public class Main2Activity extends AppCompatActivity {
                     incorrectResponse = incorrectResponse + 1;
                     setIncorrectResponse(incorrectResponse);
 
-                    exitButton.setVisibility(View.VISIBLE);
+                    // exitButton.setVisibility(View.VISIBLE);
                 }
 
                 //Display correct score
                 TextView scoreTextView4 = findViewById(R.id.scoreCount4);
-                scoreTextView4.setText(getCorrectResponse() + " / " + getIncorrectResponse());
+                String correctScore4 = getCorrectResponse() + "/" + getIncorrectResponse();
+                scoreTextView4.setText(correctScore4);
             }
         });
 
@@ -273,12 +277,12 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     /**
-     * This method exits the application with a goodbye toast
+     * This method exits the application with a goodbye toast and final score
      */
     private void exitApp() {
 
         //account for missed questions in final score
-        int j = 0;
+        int j;
         int k = 0;
 
         j = getCorrectResponse() + getIncorrectResponse();
@@ -305,6 +309,5 @@ public class Main2Activity extends AppCompatActivity {
             }
         }, 4000);
     }
-
 
 }

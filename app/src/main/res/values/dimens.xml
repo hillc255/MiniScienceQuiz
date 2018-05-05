@@ -26,15 +26,19 @@
     <!-- padding dimen -->
     <dimen name="paddingRight_textview">8dp</dimen>
     <dimen name="paddingTop_imageview">8dp</dimen>
+    <dimen name="paddingTopSmall">8dp</dimen>
+    <dimen name="paddingBottomSmall">8dp</dimen>
+    <dimen name="paddingTop">16dp</dimen>
     <dimen name="paddingBottom_imageview">8dp</dimen>
+    <dimen name="paddingBottom">16dp</dimen>
     <dimen name="paddingBottom_textview">16dp</dimen>
     <dimen name="paddingBottom_textviewLg">20dp</dimen>
     <dimen name="paddingRight_textviewMed">10dp</dimen>
     <dimen name="paddingRight_textviewLg">20dp</dimen>
     <dimen name="paddingLeft_textview">10dp</dimen>
-    <!-- radioGroup and radioButton dimen -->
+    <!-- radioGroup and radioButton / checkbox dimen -->
     <dimen name="radioGroup_layoutMargin">20dp</dimen>
-    <dimen name="radioButton_layoutMarginBottom">20dp</dimen>
+    <dimen name="radioButton_layoutMarginBottom">12dp</dimen>
     <!-- button dimen -->
     <dimen name="button_layout_marginBottom">8dp</dimen>
     <dimen name="button_layout_marginTop">20dp</dimen>

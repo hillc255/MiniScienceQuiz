@@ -6,6 +6,8 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
+    <!-- Main splash page -->
+
     <RelativeLayout
         android:id="@+id/relativelayout"
         android:layout_width="match_parent"
